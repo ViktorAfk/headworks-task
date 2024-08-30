@@ -5,7 +5,7 @@ To run the project
  - You need to install dependencies run 'pnpm instal';
  - Once the dependencies are installed, you can start the Vite development server:
   'pnpm run dev'
-- open this link (http://localhost:5173/cyberoo-test-task)
+- open this link (http://localhost:5173/headworks-task)
 
 
 Includes:
