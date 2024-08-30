@@ -46,4 +46,4 @@ Technical Considerations:
  • SCSS modules for styling, application is responsive.
  • For backend purposes I used firebase
 
-- [DEMO LINK]( https://viktorafk.github.io/cyberoo-test-task/) 
+- [DEMO LINK](https://viktorafk.github.io/headworks-task/) 
