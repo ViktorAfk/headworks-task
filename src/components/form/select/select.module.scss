@@ -1,0 +1,25 @@
+@import './../../../style/';
+
+.select {
+
+  position: relative;
+  margin-bottom: 30px;
+
+  &>label{
+    padding:0 0.2em;
+    position:absolute;
+    top: -0.7em;
+    left:1em;
+    background-color:white;
+    @include typographyFormLabel;
+  }
+  
+  &>select{
+    width: 200px;
+    padding:0.8em;
+    border-radius: 0.5em;
+    border: 1px solid $button-color;
+    outline:none;
+    @include typographyFormInput;
+  }  
+}

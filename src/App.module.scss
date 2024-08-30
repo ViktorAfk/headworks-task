@@ -1,0 +1,8 @@
+@import './style';
+
+.app {
+  &__main {
+    box-sizing: border-box;
+    min-height: 100dvh;
+  }
+}

@@ -1,0 +1,14 @@
+@import './style';
+
+@import './style/normalize';
+* {
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+}

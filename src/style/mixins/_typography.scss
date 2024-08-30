@@ -1,0 +1,63 @@
+@import './../variables/colors';
+@import './../variables/sizes';
+@import './../mixins/responsive';
+
+
+@mixin typographyCardHeader {
+  font-family: "Bebas Neue", sans-serif;
+  color: $cancel-color;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  font-size: $font-medium;
+
+  @include onTablet {
+    font-size: $font-big;
+  }
+}
+
+@mixin typographyCardDescription {
+  font-family: "Bebas Neue", sans-serif;
+  color: $secondary-color;
+  font-weight: 400;
+  letter-spacing: 1.28px;
+  font-size: $font-standard;
+
+  @include onTablet {
+    font-size: $font-medium;
+  }
+}
+
+
+@mixin typographyNotes {
+  font-family: "Roboto", sans-serif;
+  color: $secondary-color;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 125%;
+  font-style: $font-sm;
+}
+
+
+@mixin typographyFormLabel {
+  color: $secondary-color;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: $font-sm;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 146.484%;
+  @include onTablet {
+    font-size: 0.9rem;
+  }
+}
+
+@mixin typographyFormInput {
+  color: $secondary-color;
+  font-family: "Bebas Neue";
+  font-size: $font-standard;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.484%;
+  letter-spacing: 1.28px;
+}

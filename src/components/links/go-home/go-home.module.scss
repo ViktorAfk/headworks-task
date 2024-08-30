@@ -1,0 +1,20 @@
+@import '../../../style/';
+
+.go-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  color: $background-card;
+  background-color: $cancel-color;
+  transition:  background-color 0.3s, color 0.3s, border 0.3s;
+  
+
+  &:hover {
+    color: $cancel-color;
+    background-color: $background-card;
+    border: 1px solid $cancel-color;
+  }
+}

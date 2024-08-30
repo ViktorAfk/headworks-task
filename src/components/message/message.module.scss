@@ -1,0 +1,6 @@
+@import './../../style/';
+
+.message {
+  @include typographyFormInput;
+  color: $cancel-color;
+}

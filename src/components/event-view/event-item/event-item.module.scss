@@ -1,0 +1,24 @@
+@import './../../../style/';
+.event-item {
+  width: 100%;
+ 
+  margin-bottom: 30px;
+  border-bottom: 1px solid $line-color;
+
+  @include onTablet {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__key {
+    flex: 1;
+    @include typographyFormLabel;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  &__value {
+    flex: 2;
+    @include typographyFormInput;
+  }
+}

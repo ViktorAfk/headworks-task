@@ -1,0 +1,8 @@
+.tickets-container {
+
+    margin-bottom: 30px;
+    &__head {
+      display: flex;
+      justify-content: space-between;  
+    }
+}

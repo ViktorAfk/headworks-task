@@ -1,0 +1,44 @@
+@import './../../../style/';
+
+.input-field {
+    position: relative;
+    margin-bottom: 30px; 
+     
+    &>label{
+      padding:0 0.2em;
+      position:absolute;
+      top: -0.7em;
+      left:1em;
+      background-color:white;
+      @include typographyFormLabel;
+
+    }
+    
+    &>input{
+      box-sizing: border-box;
+      width: 100%;
+      padding:0.8em;
+      border-radius: 0.5em;
+      border: 1px solid #E3E4E8;
+      outline:none;
+      @include typographyFormInput;
+    }  
+
+    &>textarea{
+      width: 100%;
+      padding:0.8em;
+      border-radius: 0.5em;
+      border: 1px solid #E3E4E8;
+      box-sizing: border-box;
+      outline:none;
+      @include typographyFormInput;
+    }
+  
+    &__error {
+      width: 100%;
+      font-size: 12px;
+      color: #FF9242;
+      text-align: center;
+    }
+  
+}

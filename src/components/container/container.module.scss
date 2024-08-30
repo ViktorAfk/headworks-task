@@ -1,0 +1,30 @@
+@import './../../style/';
+
+.container {
+  max-width: 375px;
+  padding-block: 1rem;
+  padding-inline: $mobile-inline-padding;
+  margin-inline: auto;
+  background-color: white;
+  min-height: 100dvh;
+
+  &--tablet {
+    max-width: 768px;
+  }
+
+  &--desktop {
+    max-width: 1280px;
+  }
+  &--center {
+    display: flex;
+    justify-items: center;
+  }
+
+ @include onTablet {
+  padding-inline: $tablet-inline-padding;
+ }
+
+ @include onDesktop {
+  padding-inline: $pc-inline-padding;
+ }
+}

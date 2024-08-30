@@ -1,0 +1,61 @@
+@import "./../../style/";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $font-standard;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background-color: $button-color;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 4px;
+
+  &--medium {
+    height: 30px;
+    width: 150px;
+  }
+
+  &--small {
+    height: 30px;
+    width: 100px;
+    font-size: $font-sm;
+  }
+
+  &--large {
+    height: 40px;
+    width: 200px;
+    font-size: $font-medium;
+  }
+
+  &--submit {
+    background-color: $button-color;
+    color: white;
+  }
+
+  &--add {
+    color: white;
+    background-color: $secondary-color;
+  }
+
+  &--cancel {
+    color: white;
+    background-color: $cancel-color;
+  }
+
+  &--outlined {
+    border: none;
+  }
+
+  &--disabled {
+    opacity: 0.8;
+    background-color: grey;
+    pointer-events: none;
+  }
+
+  &:hover {
+    color: $button-color;
+    border: 1px solid $button-color;
+    background-color: $background-card ;
+  }
+}

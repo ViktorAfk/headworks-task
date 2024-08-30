@@ -1,0 +1,15 @@
+@import './../../../style/';
+
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  &__key {
+    @include typographyFormLabel;
+  }
+
+  &__value {
+    @include typographyFormInput;
+  }
+}

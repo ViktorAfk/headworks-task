@@ -1,0 +1,13 @@
+@import './responsive';
+
+@mixin catalogGrid {
+  display: grid;
+  gap: 16px 40px;
+  place-self: center;
+  grid-template-columns: repeat(auto-f, minmax(272px, 300px));
+
+  @include onTablet {
+    grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+    justify-items: start;
+  }
+}

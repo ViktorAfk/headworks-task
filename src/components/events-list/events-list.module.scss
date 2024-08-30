@@ -1,0 +1,6 @@
+@import './../../style/';
+
+.event-list {
+  padding-block: 1rem;
+  @include catalogGrid;
+}
